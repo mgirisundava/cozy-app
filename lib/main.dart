@@ -1,3 +1,5 @@
+import 'package:bwa_cozy/models/space.dart';
+
 import '../pages/splash_page.dart';
 import '../provider/space_provider.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +19,9 @@ class MyApp extends StatelessWidget {
           ChangeNotifierProvider(
             create: (context) => SpaceProvider(),
           ),
+          ChangeNotifierProvider(
+            create: (context) => Space(),
+          )
         ],
         child: MaterialApp(
           debugShowCheckedModeBanner: false,

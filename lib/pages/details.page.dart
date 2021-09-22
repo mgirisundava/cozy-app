@@ -17,8 +17,6 @@ class DetailsPage extends StatefulWidget {
   _DetailsPageState createState() => _DetailsPageState();
 }
 
-bool isClicked = false;
-
 class _DetailsPageState extends State<DetailsPage> {
   @override
   Widget build(BuildContext context) {
@@ -323,17 +321,20 @@ class _DetailsPageState extends State<DetailsPage> {
                       width: 40,
                     ),
                   ),
-                  GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        isClicked = !isClicked;
-                      });
-                    },
-                    child: Image(
-                      image: isClicked
-                          ? AssetImage("assets/images/btn_wishlist_clicked.png")
-                          : AssetImage("assets/images/btn_wishlist.png"),
-                      width: 40,
+                  Consumer<Space>(
+                    builder: (ctx, space, _) => GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          widget.space.isFavorite = !widget.space.isFavorite;
+                        });
+                      },
+                      child: Image(
+                        image: widget.space.isFavorite
+                            ? AssetImage(
+                                "assets/images/btn_wishlist_clicked.png")
+                            : AssetImage("assets/images/btn_wishlist.png"),
+                        width: 40,
+                      ),
                     ),
                   ),
                 ],

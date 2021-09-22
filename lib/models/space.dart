@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
+import 'package:provider/provider.dart';
 
-class Space {
+class Space with ChangeNotifier {
   int? id;
   String? name;
   String? imageUrl;
@@ -15,6 +16,7 @@ class Space {
   int? numberOfKitchens;
   int? numberOfBedrooms;
   int? numberOfCupboards;
+  bool isFavorite;
 
   Space({
     this.id,
@@ -31,6 +33,7 @@ class Space {
     this.mapUrl,
     this.phone,
     this.photos,
+    this.isFavorite = false,
   });
 
   factory Space.fromJson(Map<String, dynamic> json) {
@@ -49,6 +52,7 @@ class Space {
       numberOfBedrooms: json["number_of_bedrooms"],
       numberOfKitchens: json["number_of_kitchens"],
       numberOfCupboards: json["number_of_cupboards"],
+      isFavorite: false,
     );
   }
 }
