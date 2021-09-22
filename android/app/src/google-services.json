@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "496417353627",
+    "project_id": "bwa-cozy-b2fee",
+    "storage_bucket": "bwa-cozy-b2fee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496417353627:android:76392ca7899d8dbb74fb3e",
+        "android_client_info": {
+          "package_name": "com.example.bwa_cozy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496417353627-vlar7jq2598d80e75u3bj0rv8j31282a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByCXWYBttFQqWeLW8wTa20lEwnPquGaIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496417353627-vlar7jq2598d80e75u3bj0rv8j31282a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496417353627:android:e848d0f819776f1d74fb3e",
+        "android_client_info": {
+          "package_name": "com.mgiri.bwacozy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496417353627-vlar7jq2598d80e75u3bj0rv8j31282a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByCXWYBttFQqWeLW8wTa20lEwnPquGaIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496417353627-vlar7jq2598d80e75u3bj0rv8j31282a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
