@@ -1,16 +1,26 @@
 # bwa_cozy
 
-A new Flutter project.
+Cozy is an application that helps people find boarding houses around the world. This application is also integrated with the API to store important data such as boarding house info, and others.
 
-## Getting Started
+This app is the final result of the "Dart & Flutter Development Bootcamp: Find House App" class at www.buildwithangga.com.
 
-This project is a starting point for a Flutter application.
+<h3>Tools</h3>
 
-A few resources to get you started if this is your first Flutter project:
+<ul>
+<li>Visual Studio Code</li>
+<li>Flutter SDK</li>
+<li>Firebase</li>
+<li>Figma</li>
+</ul>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<h3>Backend</h3>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<ul><li>Consume API</li></ul>
+
+<h3>State Management</h3>
+
+<ul><li>Provider</li></ul>
+
+<h3>Preview</h3>
+
+![COZY APP](https://user-images.githubusercontent.com/79519141/134310045-a32926e7-7376-4f01-b1ec-68c384435d13.jpg)
