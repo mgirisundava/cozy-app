@@ -1,4 +1,4 @@
-# bwa_cozy
+# COZY APP
 
 Cozy is an application that helps people find boarding houses around the world. This application is also integrated with the API to store important data such as boarding house info, and others.
 
