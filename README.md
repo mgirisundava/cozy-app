@@ -11,7 +11,6 @@ This app is the final result of the "Dart & Flutter Development Bootcamp: Find H
 <ul>
 <li>Visual Studio Code</li>
 <li>Flutter SDK</li>
-<li>Firebase</li>
 <li>Figma</li>
 </ul>
 
